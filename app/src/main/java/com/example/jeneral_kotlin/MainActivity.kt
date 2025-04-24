@@ -23,9 +23,17 @@ class MainActivity : ComponentActivity() {
 
             }
         }
-        sayMyName("fatemeh")
+        sayMyName("fatemeh",22)
+        //named function
+        sayMyName(age = 67, name = "zahra")
     }
 
-    fun sayMyName(name:String)=name
+    fun sayMyName(name:String,age:Int):String{
+        Log.e("3636",name)
+        return name;
+    }
+
+    fun sayMyName2(name:String)=name
+
 }
 
