@@ -40,6 +40,10 @@ class MainActivity : ComponentActivity() {
         return name;
     }
 
+    fun testFun():Unit{
+
+    }
+
 
 }
 
