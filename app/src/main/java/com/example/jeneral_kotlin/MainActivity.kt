@@ -35,5 +35,11 @@ class MainActivity : ComponentActivity() {
 
     fun sayMyName2(name:String)=name
 
+    fun sayMyNameDefaultArgs(name:String,age:Int=65):String{
+        Log.e("3636",name)
+        return name;
+    }
+
+
 }
 
