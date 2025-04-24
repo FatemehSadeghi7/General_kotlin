@@ -26,8 +26,6 @@ class MainActivity : ComponentActivity() {
         sayMyName("fatemeh")
     }
 
-    fun sayMyName(name:String){
-        Log.e("3636",name)
-    }
+    fun sayMyName(name:String)=name
 }
 
