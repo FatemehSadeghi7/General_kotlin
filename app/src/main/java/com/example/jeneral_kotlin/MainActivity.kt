@@ -26,6 +26,9 @@ class MainActivity : ComponentActivity() {
         sayMyName("fatemeh",22)
         //named function
         sayMyName(age = 67, name = "zahra")
+
+        val name=MyClass()
+        val str=name getMyFullName "sadeghi"
     }
 
     fun sayMyName(name:String,age:Int):String{
@@ -42,6 +45,10 @@ class MainActivity : ComponentActivity() {
 
     fun testFun():Unit{
 
+    }
+
+    infix fun MyClass.getMyFullName(family:String):String{
+        return "${this.name} $family"
     }
 
 
